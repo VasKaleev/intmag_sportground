@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+   }
 
 @font-face {
 	font-family: 'Roboto-Regular';
@@ -1027,12 +1030,12 @@ h3 {
 
 @media (max-width: 576px) {
 	.logo-img {
-		width: 50px;
+		width: 80%;
 	}
 
 	#btn-zakaz,
 	#super-Btn {
-		font-size: 11px;
+		font-size: 10px;
 		width: 75px;
 	}
 
@@ -1046,7 +1049,7 @@ h3 {
 	}
 
 	.cart-super-Btn {
-		width: 185px;
+		width: 50%;
 	}
 
 	.tab button {
@@ -1062,20 +1065,20 @@ h3 {
 	}
 
 	.in img {
-		width: 30px;
-		height: 30px;
+		width: 25px;
+		height: 25px;
 	}
 
 	.vk img {
-		width: 30px;
+		width: 25px;
 	}
 
 	.tg img {
-		width: 30px;
+		width: 25px;
 	}
 
 	.cart {
-		height: 30px;
+		height: 25px;
 	}
 
 	#table2 {
