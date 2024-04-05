@@ -6,7 +6,6 @@
 html {
 	scroll-behavior: smooth;
    }
-
 @font-face {
 	font-family: 'Roboto-Regular';
 	font-style: normal;
@@ -1029,14 +1028,23 @@ h3 {
 }
 
 @media (max-width: 576px) {
-	.logo-img {
-		width: 80%;
+	header {
+		height: 200px;
+		border-radius: 5px;
 	}
-
+	.header-wrap {
+		padding: 10px 10px 0px 10px ;
+		flex-direction: column;
+		gap: 5px 20px;
+	}
+	.cart-super-Btn {
+		height: 80%;
+	}
+	
 	#btn-zakaz,
 	#super-Btn {
 		font-size: 10px;
-		width: 75px;
+		width: 100px;
 	}
 
 	.main-title {
@@ -1047,9 +1055,11 @@ h3 {
 	.modal-admin {
 		width: 70%;
 	}
-
+    .cartbtn {
+		top: -5px;
+	}
 	.cart-super-Btn {
-		width: 50%;
+		width: 90%;
 	}
 
 	.tab button {
@@ -1058,27 +1068,11 @@ h3 {
 
 	.tab a {
 		font-size: 10px;
+		border-radius: 5px;
 	}
 
 	.footer-link {
 		font-size: 12px;
-	}
-
-	.in img {
-		width: 25px;
-		height: 25px;
-	}
-
-	.vk img {
-		width: 25px;
-	}
-
-	.tg img {
-		width: 25px;
-	}
-
-	.cart {
-		height: 25px;
 	}
 
 	#table2 {
@@ -1087,5 +1081,9 @@ h3 {
 
 	.modal-content {
 		width: 90%;
+	}
+	footer {
+		height: 120px;
+		border-radius: 5px;
 	}
 }
